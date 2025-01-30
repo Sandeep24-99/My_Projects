@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+.nav-bar{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0; 
+}
+.nav-item1{
+    cursor: pointer;
+}
+.nav-item2{
+    height: 40px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    
+}
+#mag1{
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.search{
+    padding-left: 10px;
+    height: 30px;
+    width: 80%;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 17px;
+}
+
+.nav-item3{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+}
+.nav-item3 i{
+    font-size: 17px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.nav-item3 p{
+    font-size: 17px;
+    margin-right: 10px;
+}
+.nav-item3:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border-width: 100%;
+}
+.nav-item4{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;font-size: 17px;
+}
+
+.nav-item4 p{
+    margin-left: 6px;
+}
+
+.nav-item5{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.nav-item5 p{
+    margin-left: 6px;
+}
+
+.nav-item6{
+    cursor: pointer;
+}
+.nav-item6:hover{
+    background-color: gainsboro;
+    padding:10px;
+    border: 2px transparent;
+}
+
+.cursor{
+    cursor: pointer;
+}
+/**Pannel**/
+.pannel{
+    margin-top: 85PX;
+    margin-left: 12px;
+    height: 130px;
+    width: 98%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pannel div img{
+    height: 64px;
+    width: 64px;
+}
+.pannel div p{
+    font-size: 14px;
+    font-weight: 535;
+}
+/**her Section**/
+.hero-section{
+    margin-top: 15px;
+    margin-left: 12px;
+    width: 98%;
+}
+.hero-section img{
+    width: 100%;
+}
+
+/** content1 section**/
+.content-box1{
+    margin-top: 15px;
+    margin-left: 12px;
+    width: 98%;
+    height: 350px;
+    background-color: white;
+}
+.content1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sub-content h4{
+    color:  rgb(22, 107, 22);;
+}
+.sub-content{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    width: 200px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box1 h3{
+    padding: 20px;
+}
+
+.sub-content p{
+    margin-top: 20px;
+}
+/** content2 section**/
+.content-box2{
+    margin-top: 15px;
+    margin-left: 12px;
+    width: 98%;
+    height: 350px;
+    background-color: white;
+}
+.content2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content-box2 h3{
+    padding: 20px;
+}
+
+
+/** container contents**/
+.container{
+    width: 99%;
+    margin-top: 20px;
+    margin-left: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.sub-container{
+    background-color: white;
+    height: 600px;
+    width: 430px;
+    border: 1px solid gainsboro;
+    
+}
+.box{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.quarth-box{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-gap: 15px;
+    margin-left: 6px;
+    margin-top: 30px;
+}
+.sub-container h3{
+    margin-top: 30px;
+    margin-left: 6px;
+    font-size: 20px;
+    color:#212121
+}
+.box h4{
+    color: rgb(22, 107, 22);
+}
+/** Footer**/
+.footer-content{
+    margin-top: 15px;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.foot-content a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 10px;
+
+}
+.foot-content h4{
+    color: #878787;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.foot-content div p{
+    font-size: 12px;
+    
+}
+.paragraph{
+    margin-top: 6px;
+}
+.paragraph p{
+    padding: 5px;
+}
