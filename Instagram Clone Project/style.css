@@ -1,0 +1,217 @@
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-script');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    display: flex;
+    
+}
+.sidebar{
+    width: 20vw;
+    height: 100vh;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar-top{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: none;
+    overflow-y: scroll;
+}
+#brand-logo{
+    width: 10vw;
+    margin-left: 1rem;
+}
+i{
+    margin-left: 0.8rem;
+    font-weight: 900;
+}
+span{
+    margin-left: 1rem;
+    font-weight: 540;
+}
+.bar-item{
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    height: auto;
+    width: 450px;
+    box-shadow: 1px 1px 6px 1px #888888;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.stories{
+    overflow-x: scroll;
+    overflow-y: none;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+.stories::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    display: inline-block;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.story>img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.story>p{
+    font-size: 12px;
+}
+.next-arrow{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    opacity: 0.8;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* main section */
+.body-card{
+    border: none;
+    border-radius: 10px;
+    height: auto;
+    width: 450px;
+    box-shadow: 1px 1px 6px 1px #888888;
+    margin-bottom: 10px;
+    
+}
+.body-card-top{
+    display: flex;
+    align-items: center;
+}
+.body-card-top>img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.body-card-top>span{
+    font-weight: bold;
+}
+.main-img{
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    
+}
+.body-card-icons{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-size: large;
+}
+.body-card-icons>div>i{
+    cursor: pointer;
+}
+.body-card-description{
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.body-card-comment{
+    padding-bottom: 10px;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.like{
+    font-size: small;
+}
+.body-card-add-comment{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px 8px 10px;
+    color: gray;
+
+}
+.add-comment{
+    font-size: 17px;
+}
+.topbar, .bottombar{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .sidebar{
+        display: none;
+    }
+
+    .main{
+        margin-top: 50px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .card{
+        width: 90vw;
+    }
+    .body-card{
+        width: 90vw;
+    }
+    .topbar{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        background-color: white;
+        align-items: center;
+    }
+    .topbar>i{
+        padding: 10px;
+    }
+    #brand-logo{
+        width: 20vw;
+        margin: 0;
+        padding: 0;
+    }
+    .bottombar{
+        display: flex;
+        justify-content: space-evenly;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        background-color: white;
+        align-items: center;
+        padding: 10px;
+        bottom: 0;
+        box-sizing: border-box;
+    }
+}
